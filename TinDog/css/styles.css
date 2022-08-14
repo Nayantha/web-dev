@@ -1,0 +1,150 @@
+/*<editor-fold desc="Title Section">*/
+#title .container-fluid {
+    padding: 3% 5% 0 ;
+    text-align: left;
+}
+/*</editor-fold>*/
+/*<editor-fold desc="Navigation Bar">*/
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+.ml-auto{
+    margin: 0 0 0 auto;
+}
+/*</editor-fold>*/
+.container-fluid {
+    padding: 7% 15%;
+}
+/*<editor-fold desc="sections">*/
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section {
+    background-color: white;
+    color: black;
+}
+/*</editor-fold>*/
+/*<editor-fold desc="Headings">*/
+.big-heading {
+    font-weight: 900;
+    size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*</editor-fold>*/
+hgroup {
+    font-weight: bold;
+}
+p {
+    color: #8F8F8F;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/*<editor-fold desc="download btns">*/
+.dwn-btn {
+    margin: 5% 3% 5% 0;
+}
+/*</editor-fold>*/
+/*<editor-fold desc="title image">*/
+#main-img{
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    right: 28%;
+}
+/*</editor-fold>*/
+/*<editor-fold desc="Features">*/
+#features {
+    background-color: white;
+    position: relative;
+}
+.features {
+
+    padding: 5%;
+}
+.icon {
+    margin: 0 auto 20px ;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+}
+.icon:hover{
+    border-radius: 50%;
+}
+.feature-title {
+    font-size: 1.5rem;
+}
+/*</editor-fold>*/
+/*<editor-fold desc="Testimonials">*/
+#testimonials {
+    background-color: #ef8172;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*</editor-fold>*/
+/*<editor-fold desc="Press">*/
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*</editor-fold>*/
+/*<editor-fold desc="Pricing">*/
+#pricing {
+    padding: 100px;
+}
+.pricing-col {
+    padding: 3% 2%;
+}
+/*</editor-fold>*/
+
+@media (max-width:  1020px) {
+    #main-img {
+        position: static;
+        width: 60%;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
+@media (max-width: 900px) {
+    #cta-text {
+        font-size: 2rem;
+    }
+}

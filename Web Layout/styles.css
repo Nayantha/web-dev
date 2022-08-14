@@ -1,0 +1,40 @@
+body {
+    color: white;
+}
+.circle {
+    width: 5vw;
+    height: 5vw;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    left: 17.5vw;
+}
+.big-circle {
+    margin: 20px auto;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    box-sizing: border-box;
+}
+.c-2 {
+    transform-origin: 2.5vw 20vw;
+    transform: rotate(72deg);
+}
+.c-3 {
+    transform-origin: 2.5vw 20vw;
+    transform: rotate(144deg);
+}
+.c-4 {
+    transform-origin: 2.5vw 20vw;
+    transform: rotate(-144deg);
+}
+.c-5 {
+    transform-origin: 2.5vw 20vw;
+    transform: rotate(-72deg);
+}

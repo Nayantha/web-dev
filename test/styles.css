@@ -1,0 +1,25 @@
+@keyframes example {
+    from {width: 100%;background-color: red;}
+    to {width: 0;background-color: red;}
+}
+.holder {
+    position: relative;
+}
+.anim {
+    width: 10px;
+    height: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    position: absolute;
+}
+.anim::-moz-scrolled-canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+.box {
+    background-color: pink;
+    height: 100px;
+
+}

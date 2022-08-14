@@ -1,0 +1,46 @@
+.row {
+    --bs-gutter-x: 0 !important;
+}
+.person-card {
+    padding: 20px;
+    background-color: #e7e1e1;
+    margin: 20px !important;
+    border-radius: 10px;
+}
+.person-card:nth-child(odd) {
+    box-shadow: 10px 10px 20px;
+}
+.person-card:nth-child(even) {
+    box-shadow: -10px 10px 20px;
+}
+.circle {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: black;
+    margin: 0 auto;
+}
+.description-box {
+    height: 10vw;
+    background-color: black;
+    border-radius: 20px;
+}
+.position-relative {
+    position: relative;
+}
+.circle-img-top {
+    position: absolute;
+    left: 33.33%;
+    top: -5vw;
+    box-shadow: 0 0 20px white;
+    text-align: center;
+}
+.img-border {
+    height: 9vw;
+    width: 9vw;
+    border: 1px white solid;
+    border-radius: 4.5vw;
+    left: 0.5vw;
+    top:0.5vw;
+    position: absolute;
+}

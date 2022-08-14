@@ -1,0 +1,40 @@
+.row {
+    --bs-gutter-x: 0 !important;
+}
+body {
+    color: black;
+}
+.user {
+    background-color: floralwhite;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px ;
+}
+.description {
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px grey;
+}
+.description h2 {
+    text-align: center;
+}
+.circle {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    background-color: black;
+    margin: 10px auto;
+}
+.float-right {
+    float: right
+}
+hr {
+    width: 50%;
+    margin: 20px auto;
+    border-top: 5px dotted black;
+}
